@@ -1,17 +1,132 @@
-:root{
-  --bg:#ffffff;             /* white background */
-  --card:#ffffff;           /* white cards */
-  --muted:#5f6b76;          /* neutral grey */
-  --text:#111418;           /* near-black text */
-  --brand:#A50034;          /* LG red */
-  --brand2:#7A0026;         /* deeper LG red */
-  --chip:#fbe7ee;           /* pale pink chip */
-  --ok:#22c55e;
-  --warn:#f59e0b;
+
+:root {
+  --bg: #f9f9fb;
+  --card: #ffffff;
+  --muted: #6c7a89;
+  --text: #12181f;
+  --brand: #0062ff;
+  --brand2: #003cba;
+  --chip: #e4eeff;
+  --ok: #2ecc71;
+  --warn: #f39c12;
 }
-:root[data-theme="dark"]{
-  --bg:#0f1113; --card:#14181c; --muted:#9aa5af; --text:#e8edf2; --brand:#ff2b57; --brand2:#c32143; --chip:#22151a;
+
+:root[data-theme="dark"] {
+  --bg: #0e1117;
+  --card: #1b1f24;
+  --muted: #8a9aa5;
+  --text: #f0f3f7;
+  --brand: #339bff;
+  --brand2: #1976d2;
+  --chip: #1d2a3a;
 }
+
+body {
+  font-family: 'Segoe UI', 'Inter', system-ui, sans-serif;
+  line-height: 1.6;
+  background: var(--bg);
+  color: var(--text);
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 20px 0;
+  border-bottom: 1px solid #e3e9f0;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--brand2);
+  text-decoration: none;
+}
+
+.nav a {
+  color: var(--text);
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+.nav a:hover {
+  background: var(--chip);
+  color: var(--brand);
+}
+
+.card {
+  background: var(--card);
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+  font-size: 1.05rem;
+  margin: 0 0 4px;
+}
+
+.btn {
+  background: var(--brand);
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.btn:hover {
+  background: var(--brand2);
+}
+
+.section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  background: #f4f6f9;
+  color: #444;
+  font-size: 0.95rem;
+  padding: 40px 0;
+  border-top: 1px solid #dee3ea;
+}
+
+.price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--brand2);
+}
+
+.breadcrumbs a {
+  color: var(--brand2);
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile nav cleanup */
+@media (max-width: 720px) {
+  .nav {
+    background: #fff;
+    border-top: 1px solid #e2e8f0;
+  }
+
+  .burger {
+    font-size: 1.4rem;
+  }
+}
+
 
 *{box-sizing:border-box} html,body{margin:0;padding:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--text);background:var(--bg)}
 .container{max-width:1180px;margin:auto;padding:0 16px}
