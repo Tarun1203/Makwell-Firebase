@@ -1,313 +1,59 @@
 [
   {
-    "id": "tv-24n",
-    "group": "home-entertainment",
-    "categories": [
-      "led"
-    ],
-    "tags": [
-      "full-hd-1080p",
-      "60cm",
-      "low-power"
-    ],
-    "name": "24\" LED TV (Normal)",
-    "price": null,
-    "inStock": true,
-    "size": "24",
-    "badge": "—",
-    "image": "assets/MK24.jpg",
-    "added": 20250920,
-    "specs": [
-      "16.7M Colors"
-    ]
-  },
-  {
     "id": "tv-32s",
-    "group": "home-entertainment",
+    "name": "32\" Smart LED TV",
     "categories": [
-      "android-tv"
+      "led-tv"
     ],
     "tags": [
-      "hd-ready",
-      "low-power"
+      "hd-ready"
     ],
-    "name": "32\" Smart LED TV",
-    "price": null,
+    "price": 14990,
     "inStock": true,
-    "size": "32",
+    "size": "32\"",
     "badge": "Android 11",
     "image": "assets/MK32S.jpg",
-    "added": 20250920,
     "specs": [
       "1GB RAM",
       "8GB ROM"
-    ]
-  },
-  {
-    "id": "tv-40s",
-    "group": "home-entertainment",
-    "categories": [
-      "android-tv"
-    ],
-    "tags": [
-      "full-hd",
-      "voice-keypad"
-    ],
-    "name": "40\" Smart TV",
-    "price": null,
-    "inStock": true,
-    "size": "40",
-    "badge": "Android",
-    "image": "assets/MK40S.jpg",
-    "added": 20250920,
-    "specs": [
-      "1GB RAM",
-      "8GB ROM"
-    ]
-  },
-  {
-    "id": "tv-43s",
-    "group": "home-entertainment",
-    "categories": [
-      "android-tv"
-    ],
-    "tags": [
-      "full-hd",
-      "voice-keypad"
-    ],
-    "name": "43\" Smart TV",
-    "price": null,
-    "inStock": true,
-    "size": "43",
-    "badge": "Android",
-    "image": "assets/MK43S.jpg",
-    "added": 20250920,
-    "specs": [
-      "1GB RAM",
-      "8GB ROM"
-    ]
-  },
-  {
-    "id": "tv-43w",
-    "group": "home-entertainment",
-    "categories": [
-      "webos"
-    ],
-    "tags": [
-      "full-hd",
-      "voice-keypad"
-    ],
-    "name": "43\" webOS TV",
-    "price": null,
-    "inStock": true,
-    "size": "43",
-    "badge": "webOS",
-    "image": "assets/MK43Web.jpg",
-    "added": 20250920,
-    "specs": [
-      "1GB RAM",
-      "8GB ROM"
-    ]
-  },
-  {
-    "id": "tv-50g",
-    "group": "home-entertainment",
-    "categories": [
-      "google-tv"
-    ],
-    "tags": [
-      "full-hd",
-      "voice-keypad"
-    ],
-    "name": "50\" Google TV",
-    "price": null,
-    "inStock": true,
-    "size": "50",
-    "badge": "Google TV",
-    "image": "assets/MK50G.jpg",
-    "added": 20250920,
-    "specs": [
-      "1GB RAM",
-      "8GB ROM"
-    ]
-  },
-  {
-    "id": "tv-55web",
-    "group": "home-entertainment",
-    "categories": [
-      "webos"
-    ],
-    "tags": [
-      "full-hd",
-      "voice-keypad"
-    ],
-    "name": "55\" WebOS TV",
-    "price": null,
-    "inStock": true,
-    "size": "55",
-    "badge": "webOS",
-    "image": "assets/MK55G.jpg",
-    "added": 20250920,
-    "specs": [
-      "1GB RAM",
-      "8GB ROM"
-    ]
-  },
-  {
-    "id": "tv-65web",
-    "group": "home-entertainment",
-    "categories": [
-      "webos"
-    ],
-    "tags": [
-      "full-hd",
-      "voice-keypad"
-    ],
-    "name": "65\" WebOS TV",
-    "price": null,
-    "inStock": true,
-    "size": "65",
-    "badge": "webOS",
-    "image": "assets/MK65G.jpg",
-    "added": 20250920,
-    "specs": [
-      "1GB RAM",
-      "8GB ROM"
-    ]
-  },
-  {
-    "id": "wm-7",
-    "group": "household",
-    "categories": [
-      "washing-machine"
-    ],
-    "tags": [
-      "toughened-glass",
-      "abs-body"
-    ],
-    "name": "Semi Auto Washing Machine – 7.0 kg",
-    "price": null,
-    "inStock": true,
-    "size": "7",
-    "badge": "SAWM",
-    "image": "assets/MKSSAWM7.jpg",
-    "added": 20250920,
-    "specs": [
-      "135W Motor",
-      "2 Programs",
-      "Heavy Pulsator",
-      "Lint Filter",
-      "Diamond Steel Drum",
-      "Buzzer"
     ]
   },
   {
     "id": "wm-9",
-    "group": "household",
+    "name": "Semi Auto Washing Machine – 9.0 kg",
     "categories": [
       "washing-machine"
     ],
     "tags": [
-      "toughened-glass",
-      "abs-body"
+      "toughened-glass"
     ],
-    "name": "Semi Auto Washing Machine – 9.0 kg",
-    "price": null,
+    "price": 13990,
     "inStock": true,
-    "size": "9",
+    "size": "9.0 kg",
     "badge": "SAWM",
     "image": "assets/MKSSAWM9.jpg",
-    "added": 20250920,
     "specs": [
       "185W Motor",
       "2 Programs",
-      "Heavy Pulsator",
-      "Lint Filter",
-      "Diamond Steel Drum",
-      "Buzzer"
+      "Diamond Steel Drum"
     ]
-  },
-  {
-    "id": "wm-11",
-    "group": "household",
-    "categories": [
-      "washing-machine"
-    ],
-    "tags": [
-      "toughened-glass",
-      "abs-body"
-    ],
-    "name": "Semi Auto Washing Machine – 11.0 kg",
-    "price": null,
-    "inStock": true,
-    "size": "11",
-    "badge": "SAWM",
-    "image": "assets/MKSSAWM11.jpg",
-    "added": 20250920,
-    "specs": [
-      "200W Motor",
-      "2 Programs",
-      "Heavy Pulsator",
-      "Lint Filter",
-      "Diamond Steel Drum",
-      "Buzzer"
-    ]
-  },
-  {
-    "id": "stab-fridge",
-    "group": "household",
-    "categories": [
-      "stabilizer"
-    ],
-    "tags": [
-      "500-va",
-      "5-year-warranty"
-    ],
-    "name": "Refrigerator Stabilizer (up to 365L)",
-    "price": null,
-    "inStock": true,
-    "size": "365",
-    "badge": "Stabilizer",
-    "image": "assets/MKSTBZREF.jpg",
-    "added": 20250920,
-    "specs": []
   },
   {
     "id": "stab-led-plus",
-    "group": "household",
+    "name": "Smart Plus Stabilizer (up to 75\" LED TV)",
     "categories": [
       "stabilizer"
     ],
     "tags": [
-      "led-tv",
       "5-year-warranty"
     ],
-    "name": "Smart Plus Stabilizer (up to 75 Inch LED TV)",
-    "price": null,
     "inStock": true,
-    "size": "75",
+    "size": "75\"",
     "badge": "Stabilizer",
     "image": "assets/MKSTBZSMT.jpg",
-    "added": 20250920,
-    "specs": []
-  },
-  {
-    "id": "stab-led-mini",
-    "group": "household",
-    "categories": [
-      "stabilizer"
-    ],
-    "tags": [
-      "led-tv",
-      "5-year-warranty"
-    ],
-    "name": "MINI Stabilizer (up to 43 Inch LED TV)",
-    "price": null,
-    "inStock": true,
-    "size": "43",
-    "badge": "Stabilizer",
-    "image": "assets/MKSTBZMINI.jpg",
-    "added": 20250920,
-    "specs": []
+    "specs": [
+      "500 VA",
+      "LED TV"
+    ]
   }
 ]
