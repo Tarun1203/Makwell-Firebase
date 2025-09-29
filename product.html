@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title id="pTitle">Makwell — Product</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div data-include="header"></div>
+  <main class="container product product--enhanced">
+    <div class="product-gallery">
+      <div class="product-gallery__stage">
+        <img id="pImage" alt="Product image"/>
+      </div>
+      <div class="product-gallery__thumbs" id="pThumbs"></div>
+    </div>
+    <div class="product-info">
+      <div class="product-info__head">
+        <h1 id="pName"></h1>
+        <p id="pMeta" class="muted"></p>
+      </div>
+
+      <div class="price-card">
+        <div class="price-row">
+          <span class="price" id="pPrice"></span>
+          <span class="badge" id="pStock"></span>
+        </div>
+        <p class="emi muted">EMI available • GST invoice</p>
+        <div class="cta-row sticky-cta">
+          <button class="btn" id="addToCart">Add to cart</button>
+          <a class="btn ghost" href="collections.html">Back to collections</a>
+        </div>
+      </div>
+
+      <div class="tabs">
+        <button class="tab active" data-tab="specs">Specs</button>
+        <button class="tab" data-tab="features">Features</button>
+        <button class="tab" data-tab="shipping">Shipping</button>
+        <button class="tab" data-tab="warranty">Warranty</button>
+      </div>
+
+      <section class="tabpane active" id="tab-specs">
+        <ul id="pSpecs" class="specs"></ul>
+      </section>
+
+      <section class="tabpane" id="tab-features">
+        <ul id="pFeatures" class="specs"></ul>
+      </section>
+
+      <section class="tabpane" id="tab-shipping">
+        <ul class="specs">
+          <li>Dispatched in 24–48 hours</li>
+          <li>Free shipping on orders over ₹999</li>
+          <li>Cash on delivery available</li>
+        </ul>
+      </section>
+
+      <section class="tabpane" id="tab-warranty">
+        <ul class="specs">
+          <li>1‑year standard warranty</li>
+          <li>On‑site service for select categories</li>
+          <li>Extended warranty options at checkout</li>
+        </ul>
+      </section>
+
+      <section class="related">
+        <h2>Related products</h2>
+        <div class="grid" id="relatedGrid"></div>
+      </section>
+    </div>
+  </main>
+  <div data-include="footer"></div>
+</body>
+</html>
