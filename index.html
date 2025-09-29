@@ -1,159 +1,30 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Makwell — Home</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
-  <script defer src="app.js"></script>
-</head>
-<body>
-  <div class="topbar">
-    <div class="container">
-      <span>Cash on Delivery • Secure Payment • Fast Service</span>
-      <a class="top-link" href="collections.html?tag=new">New launches</a>
-    </div>
+<html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Makwell — Home</title>
+<link rel="stylesheet" href="styles.css"/><script defer src="app.js"></script>
+</head><body>
+<div class="topbar"><div class="container"><span>Cash on Delivery • Secure Payment • Fast Service</span></div></div>
+<header class="header container">
+  <a class="logo" href="index.html"><span>MAKWELL</span></a>
+  <nav class="nav" id="nav">
+    <a class="nav-item" href="collections.html?cat=led-tv" data-frame="true">LED TV</a>
+    <a class="nav-item" href="collections.html?cat=washing-machine" data-frame="true">Washing Machine</a>
+    <a class="nav-item" href="collections.html?cat=stabilizer" data-frame="true">Stabilizers</a>
+    <a class="nav-item" href="support.html" data-frame="true">Support</a>
+  </nav>
+  <div class="actions">
+    <button class="icon-btn" id="themeToggle" aria-label="Toggle theme">🌓</button>
+    <button class="burger" id="burger" aria-label="Open menu">☰</button>
   </div>
+</header>
 
-  <header class="header container">
-    <a class="logo" href="index.html">
-      <img src="assets/logo.svg" alt="Makwell"/> <span>MAKWELL</span>
-    </a>
-    <nav class="nav" id="nav">
-      <div class="nav-item has-mega">
-        <a href="collections.html?group=home-entertainment">Home Entertainment</a>
-        <div class="mega">
-          <div class="mega-col">
-            <h4>Television</h4>
-            <a href="collections.html?cat=qd-mini-led">QD Mini LED</a>
-            <a href="collections.html?cat=qled">QLED TV</a>
-            <a href="collections.html?cat=led">LED TV</a>
-            <a href="collections.html?cat=4k-uhd">4K UHD</a>
-            <a href="collections.html?cat=google-tv">Google TV</a>
-          </div>
-          <div class="mega-col">
-            <h4>Speakers</h4>
-            <a href="collections.html?cat=tower-speaker">Tower Speaker</a>
-            <a href="collections.html?cat=soundbar">Sound Bar</a>
-            <a href="collections.html?cat=multimedia">Multimedia</a>
-          </div>
-          <div class="mega-col highlight">
-            <h4>Featured</h4>
-            <a class="chip" href="collections.html?tag=new">Just dropped</a>
-            <a class="chip" href="collections.html?tag=bestseller">Best sellers</a>
-            <a class="chip" href="collections.html?tag=offers">Festival offers</a>
-          </div>
-        </div>
-      </div>
-      <div class="nav-item has-mega">
-        <a href="collections.html?group=household">Household Appliances</a>
-        <div class="mega">
-          <div class="mega-col">
-            <h4>Collections</h4>
-            <a href="collections.html?cat=washing-machine">Washing Machine</a>
-            <a href="collections.html?cat=air-cooler">Air Cooler</a>
-            <a href="collections.html?cat=fan">Fans</a>
-            <a href="collections.html?cat=vacuum">Vacuum Cleaner</a>
-            <a href="collections.html?cat=iron">Electric Iron</a>
-          </div>
-          <div class="mega-col">
-            <h4>Product Groups</h4>
-            <a href="collections.html?cat=bldc-fan">BLDC Fan</a>
-            <a href="collections.html?cat=pedestal-fan">Pedestal</a>
-            <a href="collections.html?cat=wall-fan">Wall Fan</a>
-          </div>
-        </div>
-      </div>
-      <div class="nav-item has-mega">
-        <a href="collections.html?group=kitchen">Kitchen Appliances</a>
-        <div class="mega">
-          <div class="mega-col">
-            <h4>Collections</h4>
-            <a href="collections.html?cat=mixer-grinder">Mixer Grinder</a>
-            <a href="collections.html?cat=cookware">Cookwares</a>
-            <a href="collections.html?cat=kettle">Electric Kettle</a>
-            <a href="collections.html?cat=induction">Induction Cooktop</a>
-            <a href="collections.html?cat=air-fryer">Air Fryers</a>
-          </div>
-          <div class="mega-col">
-            <h4>Product Groups</h4>
-            <a href="collections.html?cat=gas-stove">Gas Stove</a>
-            <a href="collections.html?cat=tri-ply">Tri‑Ply SS Cookware</a>
-            <a href="collections.html?cat=nonstick">Nonstick Cookware</a>
-          </div>
-        </div>
-      </div>
-      <a class="nav-item" href="about.html">About</a>
-      <a class="nav-item" href="contact.html">Service & Contact</a>
-    </nav>
-    <div class="actions">
-      <input id="search" class="search" placeholder="Search TVs, fans, cookware…"/>
-      <button class="icon-btn" id="cartBtn" aria-label="Cart">
-        <span class="icon">🛒</span> <span id="cartCount" class="badge">0</span>
-      </button>
-      <button class="burger" id="burger" aria-label="Open menu">☰</button>
-    </div>
-  </header>
+<section class="section container">
+  <h2>Explore Makwell</h2>
+  <iframe id="mainFrame" title="Makwell Content" style="width:100%;height:500px;border:1px solid #e2e8f0;border-radius:12px;background:#fff" src="collections.html"></iframe>
+</section>
 
-  <section class="hero container">
-    <div class="hero-copy">
-      <h1>Sleek design. Smart connectivity. Superior audio.</h1>
-      <p>Build your perfect home entertainment setup with Makwell’s latest Google TVs and speakers.</p>
-      <div class="cta-row">
-        <a class="btn" href="collections.html?group=home-entertainment">Shop TVs</a>
-        <a class="btn ghost" href="collections.html?tag=new">New arrivals</a>
-      </div>
-    </div>
-    <div class="hero-art">
-      <img src="assets/hero-tv.png" alt="Makwell Google TV"/>
-    </div>
-  </section>
-
-  <section class="pills container">
-    <div class="pill">Cash on delivery</div>
-    <div class="pill">Secure payment</div>
-    <div class="pill">1‑Week newsletter — no spam</div>
-  </section>
-
-  <section class="section container">
-    <div class="section-head">
-      <h2>New Launches</h2>
-      <a href="collections.html?tag=new" class="link">See all →</a>
-    </div>
-    <div class="grid" data-source="data/products.json" data-filter='{"tag":"new"}' id="grid-new"></div>
-  </section>
-
-  <section class="section container">
-    <div class="section-head">
-      <h2>Best Sellers</h2>
-      <a href="collections.html?tag=bestseller" class="link">Browse →</a>
-    </div>
-    <div class="grid" data-source="data/products.json" data-filter='{"tag":"bestseller"}' id="grid-best"></div>
-  </section>
-
-  <footer class="footer">
-    <div class="container footer-grid">
-      <div>
-        <h4>Makwell</h4>
-        <p>KCM Appliances Pvt. Ltd. — India & Middle East presence.</p>
-      </div>
-      <div>
-        <h4>Discover</h4>
-        <a href="about.html">About Us</a>
-        <a href="contact.html">Service support</a>
-        <a href="contact.html#enquiry">Business enquiry</a>
-        <a href="contact.html#careers">Careers</a>
-      </div>
-      <div>
-        <h4>Contact</h4>
-        <a href="tel:+919633112211">+91 9633 11 22 11</a>
-        <a href="mailto:makwellindia456@gmail.com">makwellindia456@gmail.com</a>
-        <p>Mon–Sat: 9:00–18:00</p>
-      </div>
-    </div>
-  </footer>
-</body>
-</html>
+<footer class="footer"><div class="container footer-grid">
+  <div><h4>Makwell</h4><p>Support • Warranty • Service</p></div>
+</div></footer>
+</body></html>

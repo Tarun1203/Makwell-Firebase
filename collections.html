@@ -1,49 +1,18 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Makwell — Collections</title>
-  <link rel="stylesheet" href="styles.css" />
-  <script defer src="app.js"></script>
-</head>
-<body>
-  <div data-include="header"></div>
-  <main class="container">
-    <div class="section-head">
-      <h1 id="collectionTitle">Collections</h1>
-      <div class="filters">
-        <select id="sort">
-          <option value="featured">Featured</option>
-          <option value="price-asc">Price: Low to High</option>
-          <option value="price-desc">Price: High to Low</option>
-          <option value="new">Newest</option>
-        </select>
-        <select id="availability">
-          <option value="all">Availability: All</option>
-          <option value="in">In stock</option>
-          <option value="out">Out of stock</option>
-        </select>
-      </div>
+<html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Collections</title><link rel="stylesheet" href="styles.css"/><script defer src="app.js"></script>
+</head><body>
+<div data-include="header"></div>
+<main class="container">
+  <section id="catBanner" class="cat-banner"></section>
+  <div class="section-head">
+    <h1 id="collectionTitle">Collections</h1>
+    <div class="filters">
+      <a class="btn ghost" id="compareBtnTop" href="compare.html">Compare (0)</a>
     </div>
-    <div class="facets">
-      <details open>
-        <summary>Category</summary>
-        <div class="facet" id="facet-category"></div>
-      </details>
-      <details>
-        <summary>Price</summary>
-        <input type="range" id="priceMin" min="0" max="150000" step="1000">
-        <input type="range" id="priceMax" min="0" max="150000" step="1000" value="150000">
-        <div class="rangeout"><span id="pmin">₹0</span> – <span id="pmax">₹1,50,000</span></div>
-      </details>
-      <details>
-        <summary>Tags</summary>
-        <div class="facet" id="facet-tags"></div>
-      </details>
-    </div>
-    <div class="grid" id="grid-collections" data-source="data/products.json"></div>
-  </main>
-  <div data-include="footer"></div>
-</body>
-</html>
+  </div>
+  <div class="grid" id="grid-collections" data-source="data/products.json"></div>
+</main>
+<div data-include="footer"></div>
+</body></html>
