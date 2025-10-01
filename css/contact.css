@@ -1,0 +1,1 @@
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}@media(max-width:900px){.contact-grid{grid-template-columns:1fr}}

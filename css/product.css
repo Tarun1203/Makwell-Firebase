@@ -1,0 +1,1 @@
+.product{display:grid;grid-template-columns:1fr 1fr;gap:18px}.product .stage{border:1px solid var(--border);border-radius:16px;padding:8px}.crumbs{margin:6px 0 10px}.crumbs a{text-decoration:none;color:var(--brand)}@media(max-width:900px){.product{grid-template-columns:1fr}}
