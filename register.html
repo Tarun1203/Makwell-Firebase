@@ -1,0 +1,17 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Register — Makwell</title>
+<link rel="stylesheet" href="css/shared.css"/>
+<link rel="stylesheet" href="css/register.css"/>
+</head>
+<body>
+<header class="header"><div class="container bar">
+<a class="logo" href="index.html"><img src="assets/logo.svg" alt="Makwell logo"/><span>MAKWELL</span></a>
+<nav class="nav"><a href="products.html">Products</a><a href="shop.html">Shop</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="login.html">Login</a></nav>
+<div class="actions"><button class="btn ghost" data-theme-toggle>Theme</button></div>
+</div></header>
+<main class="container section"><h1>Product Registration / Service Request</h1><div class='card reg'><form id='regForm'><div class='form-row'><div><label>Name</label><input name='name' required placeholder='Your Name'></div><div><label>Email</label><input type='email' name='email' required placeholder='you@example.com'></div></div><div class='form-row'><div><label>Phone</label><input name='phone' required placeholder='+91-'></div><div><label>Purchase Date</label><input type='date' name='purchase_date' required></div></div><div class='form-row'><div><label>Product Model</label><input name='model' required placeholder='e.g., 43&quot; Smart LED TV'></div><div><label>Serial Number</label><input name='serial' required placeholder='SN123456'></div></div><label>Issue / Request</label><textarea name='issue' rows='4' placeholder='Describe your request'></textarea><div class='hl'><button class='btn' type='submit'>Submit</button><a class='btn ghost' href='https://wa.me/919876543210?text=Hi%20Makwell%2C%20I%20want%20to%20register%20a%20product.' target='_blank'>WhatsApp</a></div></form><p class='muted'>To log form submissions to Google Sheets later, we can add an Apps Script endpoint.</p></div></main>
+<footer class="footer"><div class="container">© 2025 Makwell • <a href="register.html">Register / Service</a></div></footer>
+<script src="js/theme.js"></script>
+<script src="js/register.js"></script>
+</body></html>

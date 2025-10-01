@@ -1,30 +1,25 @@
-<!doctype html>
-<html lang="en"><head>
+<!doctype html><html lang="en"><head>
 <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Makwell — Home</title>
-<link rel="stylesheet" href="styles.css"/><script defer src="app.js"></script>
-</head><body>
-<div class="topbar"><div class="container"><span>Cash on Delivery • Secure Payment • Fast Service</span></div></div>
-<header class="header container">
-  <a class="logo" href="index.html"><span>MAKWELL</span></a>
-  <nav class="nav" id="nav">
-    <a class="nav-item" href="collections.html?cat=led-tv" data-frame="true">LED TV</a>
-    <a class="nav-item" href="collections.html?cat=washing-machine" data-frame="true">Washing Machine</a>
-    <a class="nav-item" href="collections.html?cat=stabilizer" data-frame="true">Stabilizers</a>
-    <a class="nav-item" href="support.html" data-frame="true">Support</a>
-  </nav>
-  <div class="actions">
-    <button class="icon-btn" id="themeToggle" aria-label="Toggle theme">🌓</button>
-    <button class="burger" id="burger" aria-label="Open menu">☰</button>
-  </div>
-</header>
-
-<section class="section container">
-  <h2>Discover Our Products</h2>
-  <iframe id="mainFrame" title="Makwell Content" style="width:100%;height:500px;border:1px solid #e2e8f0;border-radius:12px;background:#fff" src="collections.html"></iframe>
-</section>
-
-<footer class="footer"><div class="container footer-grid">
-  <div><h4>Makwell</h4><p>Support • Warranty • Service</p></div>
-</div></footer>
+<title>Home — Makwell</title>
+<link rel="stylesheet" href="css/shared.css"/>
+<link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+<header class="header"><div class="container bar">
+<a class="logo" href="index.html"><img src="assets/logo.svg" alt="Makwell logo"/><span>MAKWELL</span></a>
+<nav class="nav"><a href="products.html">Products</a><a href="shop.html">Shop</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="login.html">Login</a></nav>
+<div class="actions"><button class="btn ghost" data-theme-toggle>Theme</button></div>
+</div></header>
+<main class="container section"><section class='hero card'><div><h1>Welcome to Makwell</h1>
+<p class='lead'>LED TVs • Washing Machines • Stabilizers — built for Indian homes with trusted service.</p>
+<div class='hl'><a class='btn' href='products.html'>Browse Products</a><a class='btn ghost' href='register.html'>Register / Service</a></div></div>
+<img src='assets/banner.svg' alt='Makwell banner'/></section>
+<section class='section'><h2>Highlights</h2>
+<div class='grid'><article class='card'><h3>LED TVs</h3><p class='muted'>Android, webOS, Google TV</p><a class='btn' href='products.html'>Explore</a></article>
+<article class='card'><h3>Washing Machines</h3><p class='muted'>Semi-auto SAWM Series</p><a class='btn' href='products.html'>Explore</a></article>
+<article class='card'><h3>Stabilizers</h3><p class='muted'>Protect your appliances</p><a class='btn' href='products.html'>Explore</a></article>
+<article class='card'><h3>Support</h3><p class='muted'>Manuals, FAQs, Service</p><a class='btn' href='register.html'>Get Help</a></article></div></section></main>
+<footer class="footer"><div class="container">© 2025 Makwell • <a href="register.html">Register / Service</a></div></footer>
+<script src="js/theme.js"></script>
+<script src="js/index.js"></script>
 </body></html>
